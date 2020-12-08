@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[	<b>7.4. Data Types</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[	There are 6 data types in Python. They are numbers, string, list, tuple, set and dictionary.]]></pText>
+    </PageText>
+      
+      <PageText>
+          <pText><![CDATA[	<b>Numbers</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+          <pText><![CDATA[	Number data types store numeric values. Number objects are created when you assign a value to them. For example a = 1, b = 20. Python supports four different numerical types.]]></pText>
+    </PageText>
+      
+      <PageText>
+          <pText><![CDATA[	
+
+<ul class="ListClassDisc">
+<li>int (signed integers)</li>
+<li>long (long integers, they can also be represented in octal and hexadecimal)</li>
+<li>float (floating point real values)
+<li>complex (complex numbers)</li>
+</ul>
+
+]]></pText>
+    </PageText>
+      
+      <PageText>
+          <pText><![CDATA[	<b>String</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+          <pText><![CDATA[	Strings in Python are identified as a contiguous set of characters represented in the quotation marks. Python allows for either pairs of single or double quotes. Subsets of strings can be taken using the slice operator ([ ] and [:]) with indexes starting at 0 in the beginning of the string and ending at -1.]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ <b>Example Program</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div>str = ‘Welcome to Python Programming ‘</div>
+<div>print(str)	      # Prints complete string</div>
+<div>print(str[0])	  # Prints first character of the string </div>
+<div>print(str[11:17])# Prints characters starting from 11th to 17th</div>
+<div>print(str[11:])  # Prints string starting from 11th character</div>
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>Welcome to Python Programming </div>
+ <div>W</div> 
+<div>Python</div>
+<div>Python Programming</div>
+
+</div>
+
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ There are several built-in functions for string. Here we will see one of the commonly used built-in function split().
+split(str=””, num=string.count(str)) - Returns a list of all the words in the string, using str as the separator (splits on all whitespace if left unspecified), optionally limiting the number of splits to num.
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Example Program</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div>#Demo of split(str=””,num=string.count(str))</div>
+ <div>s=”Python programming is fun”</div> 
+<div>print(s.split(‘ ‘))</div>
+ <div>s=”Python*programming*is*fun”</div>
+ <div>print(s.split(‘*’))</div>
+ <div>s=”Python*programming*is*fun”</div>
+ <div>print(s.split(‘*’,2))</div>
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>[‘Python’, ‘programming’, ‘is’, ‘fun’] </div>
+ <div>[‘Python’, ‘programming’, ‘is’, ‘fun’]</div> 
+<div>[‘Python’, ‘programming’, ‘is*fun’]</div>
+
+</div>
+
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>List</b>]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ List is an ordered sequence of items. It is one of the most used data type in Python and is very flexible. All the items in a list do not need to be of the same type. Items separated by commas are enclosed within brackets [ ]. The values stored in a list can be accessed using the slice operator ([ ] and [:]) with indexes starting at 0 in the beginning of the list and ending with -1.]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ <b>Example Program</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div>first_list = [‘abcd’, 147, 2.43, ‘Tom’, 74.9]</div>
+ <div>print(first_list)	     # Prints complete list </div> 
+<div>print(first_list[0])	 # Prints first element of the list</div>
+ <div>print(first_list[1:3]) # Prints elements starting from 2nd till 3rd </div>
+ <div>print(first_list[2:])  # Prints elements starting from 3rd element</div>
+ 
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>[‘abcd’, 147, 2.43, ‘Tom’, 74.9] </div>
+ <div>abcd</div> 
+<div>[147, 2.43]</div>
+<div>[2.43, ‹Tom›, 74.9]</div>
+
+</div>
+
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Tuple</b>]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. The main differences between lists and tuples are lists are enclosed in square brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be considered as read-only lists.></pText>
+    </PageText>
+
+
+
+<PageText>
+      <pText><![CDATA[ <b>Example Program</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div>first_tuple = (‘abcd’, 147, 2.43, ‘Tom’, 74.9) </div>
+ <div>print(first_tuple)	    # Prints complete tuple  </div> 
+<div>print(first_tuple[0])	    # Prints first element of the tuple</div>
+ <div>print(first_tuple[1:3])	# Prints elements starting from 2nd till 3rd  </div>
+ <div>print(first_tuple[2:])	# Prints elements starting from 3rd element</div>
+ 
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>(‘abcd’, 147, 2.43, ‘Tom’, 74.9) </div>
+ <div>abcd</div> 
+<div>(147, 2.43)</div>
+<div>(2.43, ‘Tom’, 74.9)</div>
+
+</div>
+
+]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ <b>Set</b>]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. It can have any number of items and they may be of different types (integer,float, tuple, string etc.). Items in a set are not ordered. Since they are unordered we cannot access or change an element of set using indexing or slicing. We can perform set operations like union, intersection, difference on two sets. Set have unique values. They eliminate duplicates. The slicing operator [] does not work with sets. An empty set is created by the function set().></pText>
+    </PageText>
+
+
+<PageText>
+      <pText><![CDATA[ <b>Example Program</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div># Demo of Set Creation </div>
+ <div>s1={1,2,3} #set of integer numbers  </div> 
+<div>print(s1)</div>
+ <div>s2={1,2,3,2,1,2}#output contains only unique values   </div>
+ <div>print(s2)</div>
+<div>s3={1, 2.4, ‘apple’, ‘Tom’, 3}#set of mixed data types    </div>
+ <div>print(s3)</div>
+ 
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>{1, 2, 3} </div>
+ <div>{1, 2, 3}</div> 
+<div>{1, 3, 2.4, ‘apple’, ‘Tom’}</div>
+
+</div>
+
+]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ <b>Dictionary</b>]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ Dictionary is an unordered collection of key-value pairs. It is generally used when we have a huge amount of data. We must know the key to retrieve the value. In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type. Keys are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object. Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([]).></pText>
+    </PageText>
+
+
+<PageText>
+      <pText><![CDATA[ <b>Example Program</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div>dict={1:”one”,2:”two”}  </div>
+ <div>print(dict)  </div> 
+
+ 
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>{1:”one”,2:”two”} </div>
+
+</div>
+
+]]></pText>
+    </PageText>
+
+      
+
+                
+  </PageData>
+</main>
