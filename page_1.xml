@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[ <b>	7.1. Introduction</b>]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python source code is available under the GNU General Public License (GPL) and it is now maintained by a core development team at the National Research Institute. Python is a versatile language which is easy to script and easy to read. It doesn’t have strict rules for syntax. Python is open source and it forms a strong backbone to build large applications. We can run Python from a Graphical User Interface (GUI) environment if we have a GUI application on our system that supports Python. IDLE is the Integrated Development Environment (IDE) for Python. Its installation comes with integrated development environment for programming. Other examples for Python IDE are Spyder, PyCharm etc. All the programs in this book follow Python 3.4.3 for Windows.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>7.2. Input-Output Statements</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[The function used to print output on a screen is the print statement where we can pass zero or more expressions separated by commas. The print function converts the expressions we pass into a string and writes the result to standard output.]]></pText>
+    </PageText>
+      
+      
+      
+      
+    <PageText>
+      <pText><![CDATA[ <b>Example 1</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div>>>>print(”Learning Python is fun and enjoy it.”)</div>
+</div>
+]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[This will produce the following output on the screen.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[Learning Python is fun and enjoy it.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[In Python, we need not declare the type of the variable as in C or C++. The type of the variable depends on the value assigned to it. Hence we can simply assign a value to a variable.]]></pText>
+    </PageText>
+      
+      
+      <PageText>
+      <pText><![CDATA[ <b>Example 2</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div> >>>a=2</div>
+<div> >>>print(“The value of a is”,a)</div>
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ This will produce the following output on the screen. The value of a is 2
+The input([prompt]) function assumes the input is a valid Python expression and returns the evaluated result to us.]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Example </b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <div class="CodeBox">
+ 
+<div> n= input(“Enter a number “)</div>
+<div> print(“The number is: “, n)</div>
+</div>
+]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ <b>Output</b>]]></pText>
+    </PageText>
+      
+      <PageText>
+      <pText><![CDATA[ 
+<div class="TextBorderClass">
+<div>Enter a number:</div>
+ <div>5</div> 
+<div>The number is:</div> <div>5</div>
+
+</div>
+
+]]></pText>
+    </PageText>
+      
+      
+                
+  </PageData>
+</main>
