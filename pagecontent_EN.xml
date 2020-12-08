@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <tableofcontent>Detailed Table of Contents</tableofcontent>
+  <MainBookName></MainBookName>
+  <Topics>       
+    <Content id="7.	Introduction to Python Programming" HeaderContant=""><![CDATA[7.1	Introduction]]></Content>
+    <Path><![CDATA[page_1.html]]></Path>
+  </Topics>
+  <Topics>
+    <Content HeaderContant=""><![CDATA[7.2	Input-Output Statements]]></Content>
+    <Path><![CDATA[page_2.html]]></Path>
+  </Topics> 
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.3	Operators]]></Content>
+    <Path><![CDATA[page_3.html]]></Path>
+  </Topics> 
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.4	Data Types]]></Content>
+    <Path><![CDATA[page_4.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.5	Data TypesDecision Making]]></Content>
+    <Path><![CDATA[page_5.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.6	Loops]]></Content>
+    <Path><![CDATA[page_6.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.7	Control Statements]]></Content>
+    <Path><![CDATA[page_7.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.8	Functions]]></Content>
+    <Path><![CDATA[page_8.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.9	Modules]]></Content>
+    <Path><![CDATA[page_9.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.10	Exception Handling]]></Content>
+    <Path><![CDATA[page_10.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.11	File Handling]]></Content>
+    <Path><![CDATA[page_11.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.12	Reading Images]]></Content>
+    <Path><![CDATA[page_12.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.13	Networking]]></Content>
+    <Path><![CDATA[page_13.html]]></Path>
+  </Topics>
+    <Topics>
+    <Content HeaderContant=""><![CDATA[7.14	Conclusion]]></Content>
+    <Path><![CDATA[page_14.html]]></Path>
+  </Topics>
+     
+
+</main>
